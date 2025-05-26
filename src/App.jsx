@@ -1,6 +1,5 @@
 import './App.css'
-import MovieCard from "./components/MovieCard" 
-
+import Home from './pages/Home'
 function App() {
 
   const movieNumber = 1;
@@ -8,7 +7,7 @@ function App() {
   return (
     <>
     
-  {movieNumber === 1 && <MovieCard movie={{title: "joes Film" , release_date: "2020"}} /> }
+ 
     </>
   );
 }
